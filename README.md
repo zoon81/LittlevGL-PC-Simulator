@@ -3,7 +3,7 @@
 The original project can be build only in certain IDE, and I would like to build in command line.
 In this way you can use any code editor for developing.
 
-Before you can build this project, you need to set the project location in Debug/makefile at line 9:
+Before you can build this project, you need to set the project location in [Debug/makefile at line 9](https://github.com/zoon81/LittlevGL-PC-Simulator/blob/716428c110236a990fe3e96d0723dfa0e0429e23/Debug/makefile#L9):
 
 ```PROJ_LOCATION := "location_in_filesystem"```
 
