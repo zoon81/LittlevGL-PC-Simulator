@@ -15,7 +15,7 @@ Go to the Debug folder
 
 Invoke make, if somehow the build was failed do not forget to make clean
 
-```make && ./pc_simulator```
+```make all && ./pc_simulator```
 
 # PC project for Littlev Graphics Library
 
