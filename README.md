@@ -1,3 +1,22 @@
+# This fork of the original LittlevGL PC simulator can be simply build with make
+
+The original project can be build only in certain IDE, and I would like to build in command line.
+In this way you can use any code editor for developing.
+
+Before you can build this project, you need to set the project location in Debug/makefile at line 9:
+
+```PROJ_LOCATION := "location_in_filesystem"```
+
+After that you can build it with the next command:
+
+Go to the Debug folder
+
+```cd ./Debug```
+
+Invoke make, if somehow the build was failed do not forget to make clean
+
+```make && ./pc_simulator```
+
 # PC project for Littlev Graphics Library
 
 The [Littlev Graphic Library](https://github.com/littlevgl/lvgl) is written mainly for microcontrollers and embedded systems however you can run the library **on your PC** as well without any embedded hardware. The code written on PC can be simply copied when your are using an embedded system.
